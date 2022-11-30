@@ -17,3 +17,20 @@ print("===========Data Mahasiswa ke -",i,"===========")
     npm.append(np)
     kelas.append(kls)
     jurusan.append(jrsn)
+
+    with open('nama.txt', 'w') as fnama:
+    for line in nama:
+        fnama.write(f"{line}\n")
+fnama.close()
+with open('npm.txt', 'w') as fnpm:
+    for line in npm:
+        fnpm.write(f"{line}\n")
+fnpm.close()
+with open('kelas.txt', 'w') as fkelas:
+    for line in kelas:
+        fkelas.write(f"{line}\n")
+fkelas.close()
+with open('jurusan.txt', 'w') as fjurusan:
+    for line in jurusan:
+        fjurusan.write(f"{line}\n")
+fjurusan.close()
