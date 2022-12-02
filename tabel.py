@@ -1,3 +1,7 @@
+"""
+    Untuk line 9 yang artinya membuat tampilan awal output.
+    Pada line 10 yang artinya kita diperintahkan untuk menginputkan jumlah data dengan inputan harus bertipedata integer dan disimpan pada variable jml_data.
+"""
 nama = []
 npm = []
 kelas = []
