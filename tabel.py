@@ -18,6 +18,11 @@ print("===========Data Mahasiswa ke -",i,"===========")
     kelas.append(kls)
     jurusan.append(jrsn)
 
+"""
+    selanjutnya pada program dibawah akan terdapat prose pembuatan file txt dari nama, npm, kelas dan jurusan.
+    Dengan menggunakan operasi 'w' yang berfungsi untuk membuka file dan menulis isi dari file yang dibuat
+    Lalu menngunakan perulangan for dan .close untuk menutup file
+"""
     with open('nama.txt', 'w') as fnama:
     for line in nama:
         fnama.write(f"{line}\n")
