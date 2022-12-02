@@ -1,7 +1,7 @@
-fnama = open("nama.txt", "r")
-fnpm = open("npm.txt", "r")
-fkelas = open("kelas.txt", "r")
-fjurusan = open("jurusan.txt", "r")
+fnama = open("nama.txt", "r") #Membuka file bernama nama.txt
+fnpm = open("npm.txt", "r") #Membuka file bernama npm.txt
+fkelas = open("kelas.txt", "r") #Membuka file bernama kelas.txt
+fjurusan = open("jurusan.txt", "r")  #Membuka file bernama jurusan.txt
 
 readnama = fnama.readlines()
 readnpm = fnpm.readlines()
