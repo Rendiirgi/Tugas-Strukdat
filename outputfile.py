@@ -1,12 +1,22 @@
-fnama = open("nama.txt", "r") #Membuka file bernama nama.txt
-fnpm = open("npm.txt", "r") #Membuka file bernama npm.txt
-fkelas = open("kelas.txt", "r") #Membuka file bernama kelas.txt
-fjurusan = open("jurusan.txt", "r")  #Membuka file bernama jurusan.txt
+fnama = open("nama.txt", "r") 
+fnpm = open("npm.txt", "r") 
+fkelas = open("kelas.txt", "r") 
+fjurusan = open("jurusan.txt", "r")  
+
+# Pada line 1 yang artinya nilai dari variable nama akan membuka dan membaca file nama.
+# Ada line 2 yang artinya nilai dari variable npm akan membuka dan membaca file npm.
+# Untuk line 3 yang artinya nilai dari variable kelas akan membuka dan membaca file kelas.
+# Terdapat line 4 yang artinya nilai dari variable jurusan akan membuka dan membaca file jurusan.
 
 readnama = fnama.readlines()
 readnpm = fnpm.readlines()
 readkelas = fkelas.readlines()
 readjurusan = fjurusan.readlines()
+
+# Pada line 11 yang artinya untuk membaca variable nama, dimana file nama akan membaca seluruh baris pada file, dan meletakkannya ke dalam sebuah list.
+# Ada line 12 yang artinya untuk membaca varible npm, dimana file npm akan membaca seluruh baris pada file, dan meletakkannya ke dalam sebuah list.
+# Untuk line 13 yang artinya untuk membaca variable kelas, dimana file kelas akan membaca seluruh baris pada file, dan meletakkannya ke dalam sebuah list.
+# Terdapat line 14 yang artinya untuk membaca variable jurusan, dimana file jurusan akan membaca seluruh baris pada file, dan meletakkannya ke dalam sebuah list
 
 print("""
 +-----------------------+------------------------------------ -+----------------------+
